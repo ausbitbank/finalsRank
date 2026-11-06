@@ -1,0 +1,14 @@
+{
+    "name": "finalsrank-dms",
+    "version": "1.3.0",
+    "private": true,
+    "description": "Finals Rank plugin for DankMaterialShell",
+    "license": "MIT",
+    "scripts": {
+        "test": "node tests/logic.test.js",
+        "test:live": "node tests/live-check.js"
+    },
+    "engines": {
+        "node": ">=18"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "id": "finalsRank",
+    "name": "Finals Rank",
+    "description": "THE FINALS leaderboard rank and season countdown — on the DankBar and the desktop",
+    "version": "1.3.0",
+    "license": "MIT",
+    "author": "ausbitbank",
+    "repo": "https://github.com/ausbitbank/finalsRank",
+    "category": "games",
+    "icon": "emoji_events",
+    "type": "composite",
+    "components": {
+        "widget": "./Widget.qml",
+        "desktop": "./DesktopWidget.qml"
+    },
+    "settings": "./Settings.qml",
+    "capabilities": ["dankbar-widget", "desktop-widget"],
+    "permissions": [
+        "settings_read",
+        "settings_write",
+        "process",
+        "network"
+    ],
+    "requires_dms": ">=1.2.0",
+    "dependencies": ["curl"],
+    "distro": ["any"],
+    "compositors": ["any"]
+}

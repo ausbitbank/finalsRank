@@ -1,0 +1,30 @@
+# Operating-system junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+
+# Logs and temporary output
+*.log
+*.tmp
+tmp/
+build/
+dist/
+
+# Node (tests only; there are no runtime dependencies)
+node_modules/
+npm-debug.log*
+
+# Local runtime data
+history.jsonl
+
+# QML tooling
+qmllint.log
+.qmllint/
